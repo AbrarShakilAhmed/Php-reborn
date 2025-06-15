@@ -1,7 +1,28 @@
 <?php
+// declare(strict_types = 1);
 
-$app = null;
+// function app($x,$y){
+//   $k = ( $x+$y);
+//   return$k;
 
-$app = "SRRS";
+// }
+// $arr = app('4',3);
 
-echo $app;
+// var_dump($arr);
+
+$x = .4;
+$y = 1 - .6;
+
+if($x ==$y){
+  echo " yes";
+
+}else{
+  echo " no";
+}
+
+
+
+$let = "will browne";
+
+echo " \n". $let[1] = "4";
+echo " \n". $let;
