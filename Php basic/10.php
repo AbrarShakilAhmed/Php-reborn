@@ -27,7 +27,7 @@
 //   }
 // }
 
-$day = 7;
+$day = 2;
 
 // switch($day){
 //   case 1:
@@ -54,5 +54,11 @@ $day = 7;
 //   default :
 //     echo "try a valid day";
 // }
+
+$CurrentDay = match($day){
+  1=> "friday",
+  2=> "satarday"
+};
+echo $CurrentDay;
 
 ?>
