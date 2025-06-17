@@ -27,7 +27,7 @@
 //   }
 // }
 
-$day = 2;
+$day = 3;
 
 // switch($day){
 //   case 1:
@@ -57,7 +57,8 @@ $day = 2;
 
 $CurrentDay = match($day){
   1=> "friday",
-  2=> "satarday"
+  2=> "satarday",
+  3=> "Monday"
 };
 echo $CurrentDay;
 
