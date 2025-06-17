@@ -27,7 +27,7 @@
 //   }
 // }
 
-$day = 3;
+$day = 2;
 
 // switch($day){
 //   case 1:
@@ -61,5 +61,18 @@ $CurrentDay = match($day){
   3=> "Monday"
 };
 echo $CurrentDay;
+
+
+function onTick(){
+  echo "Tick <br>";
+}
+register_tick_function('onTick');
+declare(ticks=3);
+$i = 0;
+$l = 10;
+
+while($i<10){
+  echo $i++ . '<br>';
+}
 
 ?>
