@@ -9,3 +9,5 @@ This is the heading from heredoc
 </div>
 
 Html;
+
+echo $demo;
