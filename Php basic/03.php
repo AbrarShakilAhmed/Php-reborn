@@ -35,7 +35,7 @@ $rf = 5;
 $text = <<< App
 
 line2 $rf
-line2
+line2 
 line2
 line2
 

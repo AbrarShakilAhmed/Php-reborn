@@ -1,15 +1,5 @@
-function x() {
-  setTimeout(() => {
-    return 1
-  }, 3000)
+function sum(x) {
+  return x
 }
 
-x = x()
-console.log(x)
-
-if (x == 1) {
-  console.log(1)
-} else if (x == 2) {
-  console.log(2)
-}
-
+console.log(sum(2))
