@@ -12,3 +12,4 @@ strlen($user);;
 Html;
 
 echo $demo;
+echo $demo;
