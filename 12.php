@@ -16,4 +16,4 @@ function demo (){
 
 $x = 'demo';
 
-echo $x();;
+echo $x();
