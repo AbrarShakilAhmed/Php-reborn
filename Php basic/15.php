@@ -1,19 +1,13 @@
 <?php
-function app($callback){
+function app($callback, $name){
   echo 1;
-  sleep(3);
-  $callback();
+  sleep(2);
+  $callback($name);  // এখানে callback function-এ parameter পাঠানো হচ্ছে
   echo 2;
-
 }
 
-function call(){
-  echo 'done';
+function call($name){
+  echo "Hello, " . $name;
 }
 
-app('call');
-
-
-function clouse(){
-  
-}
+app('call', 'রাহুল');
